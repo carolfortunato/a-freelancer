@@ -2,7 +2,6 @@
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
 }
-
 header{
 	background-color: #2c3e50;
 	display: flex;
@@ -16,22 +15,18 @@ header{
 	font-weight: bold;
 	box-sizing: border-box;
 }
-
 .start {
 	font-size: 26px;
 	padding-left: 170px;
 }
-
 .buttons {
 	font-size: 16px;
 	justify-content: space-between;
 	padding-right: 180px;
 }
-
 .portfolio-button, .about-button, .contact-button {
 	padding-left: 10px;
 }
-
 .banner {
 	background-color: #18bc9c;
 	color: white;
@@ -39,33 +34,28 @@ header{
 	text-align: center;
 	box-sizing: border-box;
 }
-
 img.profile {
 	width: 230px;
 }
 .profile {
 	padding-top: 95px;
 }
-
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 67px;
 	padding-top: 25px;
 	padding-bottom: 20px;
 }
-
 .icon-star{
 	font-size: 30px;
 	text-align: center;
 }
-
 .description {
 	font-family: 'Lato', sans-serif;
 	font-size: 25px;
 	padding-top: 15px;
 	padding-bottom: 90px;
 }
-
 .portfolio{
 	height: 790px;
 	align-items: center;
@@ -73,14 +63,12 @@ h1 {
 	box-sizing: border-box;
 	vertical-align: middle;
 }
-
 h2 {
 	font-size: 45px;
 	padding-top: 85px;
 	padding-bottom: 8px;
 	text-align: center;
 }
-
 .cabin, .cake, .circus, .game, .safe, .submarine {
 	width: 310px;
 	align-items: center;
@@ -91,8 +79,6 @@ h2 {
 	padding-left: 14px;
 	padding-bottom: 25px;
 }
-
-
 .about {
 	background-color: #18bc9c;
 	height: 520px;
@@ -102,7 +88,6 @@ h2 {
 	box-sizing: border-box;
 	vertical-align: middle;
 }
-
 .text-about {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
@@ -114,7 +99,6 @@ h2 {
 	width: 350px;
 	padding-top: 5px;
 }
-
 .download-buttom {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
@@ -125,12 +109,10 @@ h2 {
 	padding: 12px;
 	justify-content: space-between;
 }
-
 .download {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 }
-
 .contact {
 	height: 800px;
 	justify-content: center;
@@ -139,7 +121,6 @@ h2 {
 	text-align: center;
 	box-sizing: border-box;
 }
-
 .info {
 	width: 700px;
 	margin: 0 auto;
@@ -149,7 +130,6 @@ h2 {
 	text-align: center;
 	box-sizing: border-box;
 }
-
 .fname, .email, .phone, .subject {
 	border: 1px solid white;
 	border-bottom: 2px solid lightgray;
@@ -163,13 +143,11 @@ h2 {
 	text-align: left;
 	box-sizing: border-box;
 }
-
 .subject {
 	height: 85px;
 	height: 185px;
 	justify-content: right;
 }
-
 .send-buttom{
 	font-size: 18px;
 	font-weight: bold;
@@ -182,12 +160,10 @@ h2 {
 	display: inline-block;
 	border-radius: 4px;
 }
-
 h4{
 	font-size: 30px;
 	text-align: center;
 }
-
 footer{
 	padding: 35px;
 	font-size: 10px;
@@ -197,14 +173,12 @@ footer{
 	text-align: center; 
 	display: flow-root;
 }
-
 .address, .social-media, .about-us {
 	width: 350px;
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
 	display: inline-grid;
 }
-
 .end{
 	padding: 35px;
 	font-size: 16px;
