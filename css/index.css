@@ -1,0 +1,131 @@
+
+/*
+fontes:
+font-family: 'Montserrat', sans-serif
+font-family: 'Lato', sans-serif;
+
+cores:
+escuro -> #2c3e50;
+verde -> #18bc9c;
+*/
+
+* {
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background-color: #2c3e50;
+	height: 100px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.start {
+  padding: 10px;
+}
+.btn-dark {
+  background-color: #2c3e50;
+  font-size: 20px;
+}
+.banner {
+  background-color: #18bc9c;
+  color: white;
+}
+.banner-img {
+  padding: 70px;
+}
+.banner-title {
+ font-size: 50px;
+}
+.banner-description{
+  font-family: 'Lato', sans-serif;
+  padding: 30px;
+  font-size: 25px;
+}
+.icon-star{
+	font-size: 40px;
+}
+.portfolio {
+  padding-bottom: 20px;
+}
+h2 {
+	font-size: 45px;
+}
+.cabin, .cake, .circus, .game, .safe, .submarine {
+  width: 250px;
+  margin: 10px;
+}
+.about{
+  background-color: #18bc9c;
+  color: white;
+  padding: 20px;
+}
+.text-about{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.contact{
+  padding: 20px;
+}
+form{
+  margin: 20px;
+}
+.fname, .email, .phone, .subject {
+  font-family: 'Lato', sans-serif;
+	font-size: 20px;
+  width: 400px;
+}
+.send-buttom {
+  background-color: #18bc9c;
+  color: white;
+}
+footer{
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+}
+.row{
+  padding: 20px;
+}
+.footer-p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.icon{
+  font-size: 30px;
+  padding: 5px;
+}
+.end{
+  font-size: 16px;
+}
+
+@media screen and (max-width: 650px) {
+  nav {
+    height: 200px;
+    font-size: 20px;
+  }
+  nav, .start, .nav {
+  display: block;
+  }
+  .banner-img {
+    padding: 20px;
+  }
+  .banner-title {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .imgs-1, .imgs-2 {
+    display: block;
+  }
+  .text{
+    flex-wrap: wrap;
+  }
+  .fname, .email, .phone, .subject {
+    width: 100%;
+  }
+}

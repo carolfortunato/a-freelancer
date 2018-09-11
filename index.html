@@ -5,87 +5,128 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Freelancer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <link href="https://file.myfontastic.com/itB5qJBMGkViNxiEcarVea/icons.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:900" rel="stylesheet">
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/index.css" />
 </head>
 <body>
-  <header class="header">
-      <div class="start">
-        <a>START BOOTSTRAP</a>
-      </div>
-      <div class="buttons">
-        <a class="portfolio-button">PORTFOLIO</a>
-        <a class="about-button">ABOUT</a>
-        <a class="contact-button">CONTACT</a>
-      </div>
-	</header>
-  <section class="banner">
+<nav class="header d-flex align-items-center">
+  <div class="start">
+    <a>START BOOTSTRAP</a>
+  </div>
+  <ul class="nav buttons ml-auto p-2 bd-highlight">
+    <li class="nav-item portfolio-button">
+      <a class="nav-link btn-dark" href="#">PORTFOLIO</a>
+    </li>
+    <li class="nav-item about-button">
+      <a class="nav-link btn-dark" href="#">ABOUT</a>
+    </li>
+    <li class="nav-item contact-button">
+      <a class="nav-link btn-dark" href="#">CONTACT</a>
+    </li>
+  </ul>
+</nav>
+<section class="banner">
+  <div class="banner-img d-flex justify-content-center">
     <img class="profile" src="assets/images/profile.png"/>
-    <h1 class="banner title">START BOOTSTRAP</h1>
-    <i class="icon-star"></i> 
-    <p class="banner description">Web Developer - Graphic Artist - User Experience Designer</h2>
+  </div>
+  <div class="d-flex justify-content-center">
+    <h1 class="banner-title ">START BOOTSTRAP</h1>
+  </div>
+  <div>
+    <i class="icon-star d-flex justify-content-center"></i> 
+  </div>
+  <div>
+    <p class="banner-description d-flex justify-content-center">Web Developer - Graphic Artist - User Experience Designer</h2>
+  </div>
 </section>
 <section class="portfolio">
-  <h2>PORTFOLIO</h2> 
-  <i class="icon-star"></i> 
-  <div class="imgs">
+  <h2 class="d-flex justify-content-center">PORTFOLIO</h2> 
+  <i class="icon-star d-flex justify-content-center"></i> 
+  <div class="imgs-1 d-flex justify-content-center flex-wrap">
     <img class="cabin" src="assets/images/portfolio/cabin.png"/>
     <img class="cake" src="assets/images/portfolio/cake.png"/>
     <img class="circus" src="assets/images/portfolio/circus.png"/>
+  </div>
+  <div class="imgs-2 d-flex justify-content-center flex-wrap">
     <img class="game" src="assets/images/portfolio/game.png"/>
     <img class="safe" src="assets/images/portfolio/safe.png"/>
     <img class="submarine" src="assets/images/portfolio/submarine.png"/>
   </div>
 </section>
 <section class="about">
-    <h2>ABOUT</h2>
-    <i class="icon-star"></i> 
-    <div class="text">
-      <p class="text-about one">
-        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-      </p>
-      <p class="text-about two">
-        Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
-      </p>
-    </div>
-    <div class="download-buttom">
-      <i class="icon-download"></i>
-      <a class="download">Download Theme</a>
-    </div>
-  </section>
-  <section class="contact">
-      <h2>CONTACT ME</h2>
-      <i class="icon-star"></i> 
-      <form class="info">
-        <input type="text" class="fname"  placeholder="Name">
-        <input type="text" class="email"  placeholder="Email Address">
-        <input type="text" class="phone"  placeholder="Phone Number">
-        <input type="text" class="subject" placeholder="Message">
-			</form>
-			<i class="send-buttom">Send</i>
-    </section>
+  <h2 class="d-flex justify-content-center">ABOUT</h2>
+  <i class="icon-star d-flex justify-content-center "></i> 
+  <div class="text d-flex justify-content-center ">
+    <p class="text-about one">
+      Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+    </p>
+    <p class="text-about two">
+      Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
+    </p>
+  </div>
+  <div class="download-buttom d-flex justify-content-center ">
+    <a class="download btn btn-outline-light">  <i class="icon-download"></i> Download Theme</a>
+  </div>
+</section>
 
-		<footer>
-			<div class="footer">
-				<div class="address">
-					<h4>LOCATION</h4>
-					<p>3481 Melrose Place</p>
-					<p>Beverly Hills, CA 90210</p>
-				</div>
-				<div class="social-media">
-					<h4>AROUND THE WEB</h4>
-					<i class="icon-facebook"></i>
-					<i class="icon-twitter"></i>
-					<i class="icon-linkedin"></i>
-				</div>
-				<div class="about-us">
-					<h4>ABOUT FREELANCER</h4>
-					<p>Freelancer is a free to use, open source Bootstrap theme created by <strong>Start Bootstrap</strong>.</p>
-				</div>
-			</div>
-			<p class="end">Copyright © Your Website 2017</p>
-		</footer>
-	</body>
-	</html>
+<section class="contact">
+  <h2 class="d-flex justify-content-center">CONTACT ME</h2>
+  <i class="icon-star d-flex justify-content-center"></i> 
+  <form class="info d-flex justify-content-center">
+    <div>
+     <div class="form-group fname">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+      </div>
+      <div class="form-group email">
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group phone">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="phone">
+      </div>
+      <div class="form-group subject">
+        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="message" rows="3"></textarea>
+      </div>
+     <a class="send-buttom btn btn-info">Send</a>
+    </div>
+	</form>
+</section>
+
+<footer>
+	<div class="footer row">
+		<div class="address col-sm">
+      <div class="d-flex justify-content-center">
+        <h4>LOCATION</h4>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p class="footer-p">3481 Melrose Place</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p class="footer-p">Beverly Hills, CA 90210</p>
+      </div>
+		</div>
+		<div class="social-media col-sm">
+      <div class="d-flex justify-content-center">
+        <h4>AROUND THE WEB</h4>
+      </div>
+      <div class="d-flex justify-content-center">
+        <i class="icon-facebook icon"></i>
+        <i class="icon-twitter icon"></i>
+        <i class="icon-linkedin icon"></i>
+      </div>
+		</div>
+		<div class="about-us col-sm">
+      <div class="d-flex justify-content-center">
+        <h4>ABOUT FREELANCER</h4>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p class="footer-p">Freelancer is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+		  </div>	
+		</div>
+	</div>
+	<p class="end footer-p d-flex justify-content-center">Copyright © Your Website 2017</p>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
