@@ -53,7 +53,7 @@ h2 {
 	font-size: 45px;
 }
 .cabin, .cake, .circus, .game, .safe, .submarine {
-  width: 250px;
+  height: 200px;
   margin: 10px;
 }
 .about{
